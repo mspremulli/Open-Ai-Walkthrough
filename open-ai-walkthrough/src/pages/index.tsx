@@ -7,8 +7,8 @@ export default function Home() {
         <p className="text-2xl text-center font-semibold mb-4">Welcome to your OpenAI walkthrough</p>
         <div className="flex justify-center items-center bg-white shadow-lg p-6 rounded-lg">
           <Assistant
-            assistantId={""} 
-            apiKey={""} 
+            assistantId={""} //TODO ADD your own key here
+            apiKey={""} //TODO ADD your own key here
           />
         </div>
       </div>
